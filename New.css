@@ -1,0 +1,168 @@
+@font-face {
+    src: url("B_Homa.ttf");
+    font-family: myfont;
+}
+@font-face {
+    font-family: BTitr;
+    src: url("B_Titr.ttf");
+}
+*{
+    scroll-behavior: smooth;   
+}
+.container *:not(.navbar) {
+    direction: rtl;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: right;
+    width: 100%;
+    font-family: myfont;
+
+    background-color:rgb(177, 237, 237);
+}
+.carousel-inner {
+    text-align: center;
+}
+
+header {    
+    float: right;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    background-color: rgba(32, 137, 194, 0.6);
+    position: fixed;
+    width: 100%;
+    float: right;
+    z-index: 2;
+}
+.navbar:hover {
+    background-color: rgba(32, 137, 194, 0.9);
+}
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 10px;
+    float: right;
+}
+h2 {
+    font-family: BTitr;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+}
+.nav-link:hover {
+    color:#fff !important;
+    background-color:rgba(32, 137, 194, 1) ;
+    transform: scale(1.4) ;
+
+}
+
+.carousel-inner{
+    text-align: center !;
+}
+
+#jump_top {
+    background-image: url(image/jump_top.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    z-index: 995;
+    position:relative;
+    bottom: 40px;
+    right: 40px;
+}
+
+
+@media (max-width: 540px) {
+    .nav-link:hover {
+        color:#fff !important;
+        background-color:rgba(32, 137, 194, 1) ;
+        transform: scale(1.2) translate(-20px);
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-link:hover {
+        color:#fff !important;
+        background-color:rgba(32, 137, 194, 1) ;
+        transform: scale(1.2) translate(-30px);
+        padding-right: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
